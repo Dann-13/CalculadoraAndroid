@@ -5,18 +5,20 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#804cf4"
+    android:background="#1F1F1C"
     android:orientation="vertical">
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="450dp"
         android:layout_margin="10sp"
         android:columnCount="4"
         android:rowCount="5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+
+
         >
 
         <Button
@@ -26,7 +28,11 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:text="Borrar" />
+            android:background="@drawable/rounded_buttongreen"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="AC" />
 
         <Button
             android:id="@+id/parents"
@@ -35,7 +41,11 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:text="()" />
+            android:background="@drawable/rounded_buttonBlue"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="( )" />
 
         <Button
             android:id="@+id/porcentaje"
@@ -44,7 +54,11 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:text="%" />
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttonBlue"
+            android:text="%"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/dividir"
@@ -53,6 +67,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonBlue"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
             android:text="/" />
 
         <Button
@@ -62,6 +80,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
             android:text="7" />
 
         <Button
@@ -71,6 +93,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="8" />
 
         <Button
@@ -80,16 +106,26 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="9" />
 
         <Button
             android:id="@+id/multiplicacion"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:text="x" />
+            android:text="x"
+            android:background="@drawable/rounded_buttonBlue"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
 
         <Button
             android:id="@+id/cuatro"
@@ -98,6 +134,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="4" />
 
         <Button
@@ -107,6 +147,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="5" />
 
         <Button
@@ -116,6 +160,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="6" />
 
         <Button
@@ -125,7 +173,11 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:text="-" />
+            android:background="@drawable/rounded_buttonBlue"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="─" />
 
         <Button
             android:id="@+id/uno"
@@ -134,6 +186,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="1" />
 
         <Button
@@ -143,6 +199,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="2" />
 
         <Button
@@ -152,6 +212,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="3" />
 
         <Button
@@ -161,6 +225,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonBlue"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
             android:text="+" />
 
         <Button
@@ -170,6 +238,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="0" />
 
         <Button
@@ -179,6 +251,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
             android:text="," />
 
         <Button
@@ -188,7 +264,11 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:text="Borrar" />
+            android:background="@drawable/rounded_buttonblack"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="<-" />
 
         <Button
             android:id="@+id/resultado"
@@ -197,6 +277,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:background="@drawable/rounded_buttongreen"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
             android:text="=" />
     </GridLayout>
 
